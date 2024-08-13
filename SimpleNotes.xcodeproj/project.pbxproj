@@ -11,6 +11,7 @@
 		316313622C69FBEE00BFD84F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316313612C69FBEE00BFD84F /* ContentView.swift */; };
 		316313642C69FBEE00BFD84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316313632C69FBEE00BFD84F /* Assets.xcassets */; };
 		316313672C69FBEE00BFD84F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316313662C69FBEE00BFD84F /* Preview Assets.xcassets */; };
+		31985B992C6A09F2006458C1 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31985B982C6A09F2006458C1 /* NoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		316313632C69FBEE00BFD84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316313662C69FBEE00BFD84F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		316313682C69FBEE00BFD84F /* SimpleNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleNotes.entitlements; sourceTree = "<group>"; };
+		31985B982C6A09F2006458C1 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				3163135F2C69FBEE00BFD84F /* SimpleNotesApp.swift */,
+				31985B982C6A09F2006458C1 /* NoteModel.swift */,
 				316313612C69FBEE00BFD84F /* ContentView.swift */,
 				316313632C69FBEE00BFD84F /* Assets.xcassets */,
 				316313682C69FBEE00BFD84F /* SimpleNotes.entitlements */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				316313622C69FBEE00BFD84F /* ContentView.swift in Sources */,
+				31985B992C6A09F2006458C1 /* NoteModel.swift in Sources */,
 				316313602C69FBEE00BFD84F /* SimpleNotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
